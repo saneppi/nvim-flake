@@ -1,13 +1,15 @@
 {
   plugins.telescope = {
     enable = true;
+    keymapsSilent = true;
+    keymaps = { };
   };
   keymaps = [
-      {
+    {
       key = "<leader>gf";
-      action = "git_files";
+      action = "<cmd>Telescope<cr>";
       options = {
-        silent = true;
+        silent = false; 
         desc = "Search [G]it [F]iles";
       };
     }

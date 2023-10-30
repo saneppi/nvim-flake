@@ -7,8 +7,8 @@
       {
         mode = "n";
         key = "<leader>pv";
-        action = "<cmd>Ex";
-        options.silent = true;
+        action = ":Ex<cr>";
+        options.silent = false;
       }
       {
         mode = "n";
